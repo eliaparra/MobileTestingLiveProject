@@ -15,7 +15,7 @@ import screens.VerifyUser;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
-
+// prueba
 public class Test2 {
     AndroidDriver<MobileElement> driver;
     @BeforeTest
