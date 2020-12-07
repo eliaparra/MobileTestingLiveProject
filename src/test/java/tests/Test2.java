@@ -34,6 +34,7 @@ public class Test2 {
     @Test
     public  void basicTest() throws InterruptedException {
         Home prueba = new Home(this.driver);
+        System.out.println("hola");
         prueba.clickRegistrationButton();
         Thread.sleep(1000);
         RegistrationScreen registrationScreen = new RegistrationScreen(this.driver);
